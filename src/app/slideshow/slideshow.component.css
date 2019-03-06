@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+    padding: 0;
+}
+h4{
+    font-family: "quicksand";
+    color:white;
+    font-size: 5em;
+    letter-spacing: 1px;
+    /* margin-bottom: 300px; */
+}
+h3{
+    font-family: "quicksand";
+    color:white;
+    letter-spacing: 1px;
+    /* margin-bottom: 50px */
+}
+p{
+    font-size: 20px;
+}
+.carousel img{
+    height: 640px;
+    width: 100%;
+ }
+
+@media(max-width:768px) {
+    .carousel img{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+ @media(max-width:768px) {
+     .carousel-caption h4{
+        font-size: 1.5em;
+    }
+    .carousel-caption h3{
+        font-size: 15px;
+    }   
+}

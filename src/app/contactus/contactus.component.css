@@ -1,0 +1,12 @@
+@media(max-width:768px) {
+    .heading{
+        font-size: 20px;
+    }
+    .qq{
+        text-align: center;
+    }
+}
+.hl span{
+    font-size: 1em;
+cursor: pointer;
+}
