@@ -1,14 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/ng2-slim-loading-bar/style.css";
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .heading{
     text-align: center;
-    font-size: 25px;
-    padding: 5px;
+		font-size:3em;
+		margin: 20px 0px 0px 0px;
     /* text-shadow: 0px 2px 4px rgba(0,0,0,0.8); */
-    font-family: "Quicksand";
+    font-family: "Montserrat";
     text-transform: uppercase;
     user-select: none;
     font-weight: bold;
     color:#2D2B33;
+}
+hr.light { 
+	width: 60%;
+	height: 30px; 
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 1px 0 0 0; 
+	border-radius: 20px; 
+  } 
+  hr.light:before { 
+	display: block; 
+	content: ""; 
+	height: 30px; 
+	margin-top: -31px; 
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 0 0 1px 0; 
+	border-radius: 20px; 
+	}
+	.about{
+    background: -moz-linear-gradient(90deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(27%, rgba(242,255,255,1)), color-stop(28%, rgba(242,254,254,1)), color-stop(100%, rgba(255,239,209,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* ie10+ */
+    background: linear-gradient(0deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F2FFFF', endColorstr='#FFEFD1',GradientType=0 ); /* ie6-9 */ 
+ }
+ .contact{
+	background: -moz-linear-gradient(270deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,239,209,1)), color-stop(72%, rgba(242,254,254,1)), color-stop(73%, rgba(242,255,255,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(270deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(270deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* opera 11.10+ */
+	background: -ms-linear-gradient(270deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* ie10+ */
+	background: linear-gradient(180deg, rgba(255,239,209,1) 0%, rgba(242,254,254,1) 72%, rgba(242,255,255,1) 73%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEFD1', endColorstr='#F2FFFF',GradientType=0 ); /* ie6-9 */ 
 }
